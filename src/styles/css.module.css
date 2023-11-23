@@ -1,0 +1,58 @@
+.Section{
+    display: grid;
+    place-content: center;
+}
+
+.title{
+    margin: auto;
+    margin-top: 1rem;
+    border-bottom: 2px solid rgb(63, 158, 168);
+}
+
+.nombre{
+    width: 18rem;
+    margin-top: 1rem;
+    border: 2px solid rgb(63, 158, 168);
+    border-radius: 5px;
+}
+
+.contenedorSms{
+    width: 100%;
+    position: fixed;
+    bottom: 2rem;
+    left: 25rem;
+}
+
+.sms{
+    padding: .3rem;
+    width: 20rem;
+    border: 2px solid rgb(63, 158, 168);
+    border-radius: 10px;
+}
+
+.Enviar{
+    color: #fff;
+    padding: .3rem;
+    border: 2px solid rgb(63, 158, 168);
+    border-radius: 10px;
+    margin-left: 1.5rem;
+}
+
+.ul{
+    height: 20rem;
+    width: 20rem;
+    display: grid;
+    place-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    overflow-y: auto;
+}
+
+.li{
+    color: #000;
+    background-color: #fff;
+    margin-top: 0.5rem;
+    padding: .3rem;
+    border: 2px solid rgb(63, 158, 168);
+    border-radius: 10px;
+}
